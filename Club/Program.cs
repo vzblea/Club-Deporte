@@ -50,17 +50,23 @@ namespace clases
 		
 		static public string menuInfo ()
 		{
-			Console.WriteLine("Menú:");
-			Console.WriteLine("a- Agregar a un entrenador");
-			Console.WriteLine("b- Dar de baja a un entrenador");
-			Console.WriteLine("c- Agregar a un niño/socio en un deporte");
-			Console.WriteLine("d- Dar de baja a un niño/socio en un deporte");
-			Console.WriteLine("e- Simular el pago de una cuota");
-			Console.WriteLine("f- Submenú de inscripción:");
-			Console.WriteLine("g- Listado de deudores");
-			Console.WriteLine("h- Agregar un deporte");
-			Console.WriteLine("i- Eliminar un deporte");
-			Console.WriteLine("x- Salir");
+  		      Console.WriteLine("╔══════════════════════════════════╗");
+        	      Console.WriteLine("║             Menú                 ║");
+        	      Console.WriteLine("╠══════════════════════════════════╣");
+              	      Console.WriteLine("║ a- Agregar a un entrenador       ║");
+		      Console.WriteLine("║ b- Dar de baja a un entrenador   ║");
+		      Console.WriteLine("║ c- Agregar a un niño/socio       ║");
+		      Console.WriteLine("║    en un deporte                 ║");
+		      Console.WriteLine("║ d- Dar de baja a un niño/socio   ║");
+		      Console.WriteLine("║    en un deporte                 ║");
+		      Console.WriteLine("║ e- Simular el pago de una cuota  ║");
+		      Console.WriteLine("║ f- Submenú de inscripción:       ║");
+		      Console.WriteLine("║ g- Listado de deudores           ║");
+		      Console.WriteLine("║ h- Agregar un deporte            ║");
+		      Console.WriteLine("║ i- Eliminar un deporte           ║");
+		      Console.WriteLine("║ x- Salir                         ║");
+		      Console.WriteLine("╚══════════════════════════════════╝");
+		        
 
 			Console.Write("Seleccione una opción: ");
 			string opcion = Console.ReadLine();
