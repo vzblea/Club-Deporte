@@ -198,15 +198,14 @@ namespace clases
 						Console.WriteLine("Ingrese nombre del deporte");
 						string nombreDeporte5 = Console.ReadLine();
 						double? vuelto= club.PagarCuota(montoCuota, dni3, nombreDeporte5, club);// puede contener un tipo de dato double o null
-						if (vuelto.GetType() == typeof(double))
+						if (vuelto == null){
+							Console.WriteLine("El pago no se ha podido realizar");
+						}
+						else if (vuelto.GetType() == typeof(double))
 						{
 							vuelto= vuelto * -1;
 							Console.WriteLine("El vuelto de la cuota es" + vuelto);
 							break;
-						}
-						else
-						{
-							Console.WriteLine("El pago no se ha podido realizar");
 						}
 						break;
 					case "f":
