@@ -1,0 +1,6 @@
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\bin\Debug\Club.exe.config
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\bin\Debug\Club.exe
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\bin\Debug\Club.pdb
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\obj\Debug\Club.csprojResolveAssemblyReference.cache
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\obj\Debug\Club.exe
+C:\Users\Adriana\Documents\SharpDevelop Projects\Club\Club\obj\Debug\Club.pdb
